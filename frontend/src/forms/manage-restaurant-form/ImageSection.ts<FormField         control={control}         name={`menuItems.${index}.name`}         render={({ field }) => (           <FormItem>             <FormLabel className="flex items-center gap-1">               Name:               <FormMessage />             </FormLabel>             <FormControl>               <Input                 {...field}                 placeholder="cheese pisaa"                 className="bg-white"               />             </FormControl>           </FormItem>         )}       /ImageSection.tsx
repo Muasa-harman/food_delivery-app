@@ -22,7 +22,7 @@ const ImageSection = () => {
           search results. Adding an image will overwrite the existing one.
         </FormDescription>
       </div>
-      <div className="flex flex-col gap-8 w-[50%]">
+      <div className="flex flex-col gap-8 md:w-[50%]">
         {existingImageUrl && (
           <AspectRatio ratio={16 / 9}>
             {
