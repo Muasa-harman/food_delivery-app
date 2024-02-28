@@ -1,5 +1,5 @@
-import { AppState, Auth0Provider, } from "@auth0/auth0-react";
-import { User } from "@/types";
+import { Auth0Provider, } from "@auth0/auth0-react";
+// import { User } from "@/types";
 import { useNavigate } from "react-router-dom";
 
 type Props = {
