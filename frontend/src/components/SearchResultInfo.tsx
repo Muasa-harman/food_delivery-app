@@ -10,7 +10,6 @@ const SearchResultInfo = ({ total, city }: Props) => {
     <span className="">{total} Restaurants found in {city}
     <Link className="ml-1 text-sm font-semibold underline cursor-pointer text-blue-500" to={"/"}>Change Location</Link> 
     </span>
-    insert sort dropdown here
   </div>
     )
 };
